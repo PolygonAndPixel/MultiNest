@@ -26,9 +26,13 @@ In the Bachelorthesis there is a call to `sleep()` used. This has been commented
 in all versions. If you want to use this call you have to edit the file 
 `like.f90` in each toy model folder.
 For compiling please use:
+
 ``make   <-- For building MultiNest 
+
 make eggbox
+
 make gauss_shell
+
 make himmelblau``
 
 For cleaning please use:
