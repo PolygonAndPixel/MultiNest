@@ -27,19 +27,16 @@ in all versions. If you want to use this call you have to edit the file
 `like.f90` in each toy model folder.
 For compiling please use:
 
-``make   <-- For building MultiNest 
-
+```make   <-- For building MultiNest 
 make eggbox
-
 make gauss_shell
-
-make himmelblau``
+make himmelblau```
 
 For cleaning please use:
-``make clean  <-- For cleaning MultiNest
+```make clean  <-- For cleaning MultiNest
 make clean_eggbox
 make clean_gauss_shell
-make clean_himmelblau``
+make clean_himmelblau```
 
 For creating evidence files you need to edit `params.f90` for each toy model
 and set `nest_outfile` to true. The evidence files will be saved in `chains`.
